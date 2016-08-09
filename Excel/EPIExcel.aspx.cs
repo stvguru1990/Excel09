@@ -73,7 +73,7 @@ namespace Excel
                 //}
 
                 //Example how to Format Column 1 as numeric
-                //using (ExcelRange col = ws.Cells[2, 1, 2 + dtTask.Rows.Count, 1])
+                //using (ExcelRange col = ws.Cells[2, 1, 2 + dtTask.Rows.Count, 1]) 123
                 //{
                 //    col.Style.Numberformat.Format = "#,##0.00";
                 //    col.Style.HorizontalAlignment = ExcelHorizontalAlignment.Right;
